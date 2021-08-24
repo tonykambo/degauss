@@ -3,7 +3,7 @@
 Progress
 <progress id="file" value="32" max="100"> 32% </progress>
 
-This is the circuit:
+This is the launch controller circuit:
 
 ![alt text](./images/rocketlaunchcontrollercircuit.png "Hover")
 
