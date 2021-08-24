@@ -1,0 +1,107 @@
+# Project information
+site_name: Degauss
+site_url: https://degauss.com.au/
+site_author: Tony Kambourakis
+theme:
+  name: 'material'
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+
+
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/tonykambo
+      name: tonykambo on Twitter
+  
+
+copyright: Copyright &copy; 2021 Tony Kambourakis
+
+# Plugins
+plugins:
+  - search
+
+# Repository
+site_name: Degauss
+site:url: https://tonykambo.github.io/degauss
+site_author: Tony Kambourakis
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav: 
+  - Home: index.md
+  - Electronics:
+    - Rocket Launch Controller: ./electronics/rocketlaunchcontroller.md
+    - Smart Letter Box: smartletterbox.md
+  - Retro Gear:
+    - LPs
+  - Retro Gaming: 
+    - Atari 2600: atari2600.md
+    - Arcade: arcade.md
+  - Movies:
+    - The 80s and 90s: 80s90smovies.md
+  - Model Rockets: 
+    - Estes Saturn V: modelrockets.md
+  - Space:
+    - Moon Shot: space.md
+  - Photos & Videos: 
+    - Moon: moonphotos.md
+    - Drone: drone.md
+  - Locations:
+    - Hobart: hobart.md
+    - North Island: newzealandnorthisland.md
+    - Nasa: nasa.md
+  - Movie Making:
+    - Blender 3D: blender3d.md
+    - Video Editing: videoediting.md
+    - Cameras: cameras.md
+  - Development:
+    - iOS Apps: iosappdev.md
