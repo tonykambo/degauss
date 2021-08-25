@@ -13,7 +13,7 @@ This is a video
 
 ``` javascript
 var x = 1;
-var y = 3;
+var y = 4;
 function myFunct() {
     This is a function
 }
