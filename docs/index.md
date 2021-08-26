@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Welcome to Degauss
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+A collection of interests and hobbies for the purpose of decluttering the mind and sharing knowledge. 
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! note ""
+    *"Degaussing is the process of decreasing or eliminating a remnant magnetic field. It is named after the gauss, a unit of magnetism, which in turn was named after Carl Friedrich Gauss."
+    - Wikipedia*

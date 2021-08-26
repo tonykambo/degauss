@@ -80,28 +80,10 @@ nav:
   - Home: index.md
   - Electronics:
     - Rocket Launch Controller: ./electronics/rocketlaunchcontroller.md
-    - Smart Letter Box: smartletterbox.md
   - Retro Gear:
-    - LPs
+    - Record Player: ./retrogear/recordplayer.md
   - Retro Gaming: 
-    - Atari 2600: atari2600.md
-    - Arcade: arcade.md
-  - Movies:
-    - The 80s and 90s: 80s90smovies.md
+    - Atari 2600: ./retrogaming/atari2600.md
+    - Arcade: ./retrogaming/arcade.md
   - Model Rockets: 
-    - Estes Saturn V: modelrockets.md
-  - Space:
-    - Moon Shot: space.md
-  - Photos & Videos: 
-    - Moon: moonphotos.md
-    - Drone: drone.md
-  - Locations:
-    - Hobart: hobart.md
-    - North Island: newzealandnorthisland.md
-    - Nasa: nasa.md
-  - Movie Making:
-    - Blender 3D: blender3d.md
-    - Video Editing: videoediting.md
-    - Cameras: cameras.md
-  - Development:
-    - iOS Apps: iosappdev.md
+    - Estes Saturn V: ./modelrockets/estessaturnv.md
