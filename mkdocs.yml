@@ -27,8 +27,9 @@ extra:
       name: tonykambo on Twitter
 analytics:
  - provider: google
- - property: !!python/object/apply:os.getenv ["MYGGLANALYTIC"]
-  
+ - property: !ENV MYGGLANALYTIC
+ #- property: !!python/object/apply:os.getenv ["MYGGLANALYTIC"]
+
 
 copyright: Copyright &copy; 2021 Tony Kambourakis
 
