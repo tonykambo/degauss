@@ -25,9 +25,10 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/tonykambo
       name: tonykambo on Twitter
-analytics:
- - provider: google
- - property: !ENV MYGGLANALYTIC
+  analytics:
+    - provider: google
+    - property: G-EGFCNX18EG
+    #- property: !ENV MYGGLANALYTIC
  #- property: !!python/object/apply:os.getenv ["MYGGLANALYTIC"]
 
 
