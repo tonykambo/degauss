@@ -26,7 +26,8 @@ theme:
 extra:
   analytics:
     provider: google
-    property: G-EGFCNX18EG
+    #property: G-EGFCNX18EG
+    property: !ENV MYGGLANALYTIC
   generator: false
   social:
     - icon: fontawesome/brands/twitter
