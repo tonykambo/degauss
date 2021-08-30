@@ -7,7 +7,7 @@
 
 site_name: Degauss
 site_url: https://tonykambo.github.io/degauss
-site_author: Jumbolouko
+site_author: Tony Kambourakis
 
 theme:
   name: 'material'
@@ -85,12 +85,12 @@ nav:
   - Home: index.md
   - Electronics:
     - Rocket Launch Controller: ./electronics/rocketlaunchcontroller.md
-  - Retro Gear:
-    - Record Player: ./retrogear/recordplayer.md
-  - Retro Gaming: 
-    - Atari 2600: ./retrogaming/atari2600.md
-    - Arcade: ./retrogaming/arcade.md
-  - Model Rockets: 
-    - Estes Saturn V: ./modelrockets/estessaturnv.md
+#  - Retro Gear:
+#    - Record Player: ./retrogear/recordplayer.md
+#  - Retro Gaming: 
+#    - Atari 2600: ./retrogaming/atari2600.md
+#    - Arcade: ./retrogaming/arcade.md
+#  - Model Rockets: 
+#    - Estes Saturn V: ./modelrockets/estessaturnv.md
   - Gaming: 
     - Xbox: ./gaming/xboxsetup.md
