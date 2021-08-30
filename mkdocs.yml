@@ -7,7 +7,7 @@
 
 site_name: Degauss
 site_url: https://tonykambo.github.io/degauss
-site_author: Tony Kambourakis
+site_author: Jumbolouko
 
 theme:
   name: 'material'
@@ -92,3 +92,5 @@ nav:
     - Arcade: ./retrogaming/arcade.md
   - Model Rockets: 
     - Estes Saturn V: ./modelrockets/estessaturnv.md
+  - Gaming: 
+    - Xbox: ./gaming/xboxsetup.md
