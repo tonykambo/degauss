@@ -1,7 +1,14 @@
 # Project information
+#site_name: Degauss
+#site_url: https://degauss.com.au/
+#site_author: Tony Kambourakis
+
+# Repository
+
 site_name: Degauss
-site_url: https://degauss.com.au/
+site_url: https://tonykambo.github.io/degauss
 site_author: Tony Kambourakis
+
 theme:
   name: 'material'
   palette:
@@ -16,9 +23,6 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-
-
-
 extra:
   generator: false
   social:
@@ -31,17 +35,13 @@ extra:
     #- property: !ENV MYGGLANALYTIC
  #- property: !!python/object/apply:os.getenv ["MYGGLANALYTIC"]
 
-
 copyright: Copyright &copy; 2021 Tony Kambourakis
 
 # Plugins
 plugins:
   - search
 
-# Repository
-site_name: Degauss
-site:url: https://tonykambo.github.io/degauss
-site_author: Tony Kambourakis
+
 
 markdown_extensions:
   - admonition
