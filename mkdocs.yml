@@ -24,14 +24,15 @@ theme:
         name: Switch to light mode
 
 extra:
+  analytics:
+    provider: google
+    property: G-EGFCNX18EG
   generator: false
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/tonykambo
       name: tonykambo on Twitter
-  analytics:
-    - provider: google
-    - property: G-EGFCNX18EG
+
     #- property: !ENV MYGGLANALYTIC
  #- property: !!python/object/apply:os.getenv ["MYGGLANALYTIC"]
 
@@ -40,8 +41,6 @@ copyright: Copyright &copy; 2021 Tony Kambourakis
 # Plugins
 plugins:
   - search
-
-
 
 markdown_extensions:
   - admonition
