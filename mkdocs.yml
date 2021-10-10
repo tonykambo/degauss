@@ -1,13 +1,13 @@
 # Project information
 #site_name: Degauss
 #site_url: https://degauss.com.au/
-#site_author: Tony Kambourakis
+#site_author: Jumbolouko
 
 # Repository
 
 site_name: Degauss
 site_url: https://tonykambo.github.io/degauss
-site_author: Tony Kambourakis
+site_author: Jumbolouko
 
 theme:
   name: 'material'
@@ -38,7 +38,7 @@ extra:
     #- property: !ENV MYGGLANALYTIC
  #- property: !!python/object/apply:os.getenv ["MYGGLANALYTIC"]
 
-copyright: Copyright &copy; 2021 Tony Kambourakis
+copyright: Copyright &copy; 2021 Jumbolouko
 
 # Plugins
 plugins:
@@ -86,11 +86,14 @@ nav:
   - Home: index.md
   - Electronics:
     - Rocket Launch Controller: ./electronics/rocketlaunchcontroller.md
+    - Apollo DSKY Replica: ./electronics/apollodsky.md
 #  - Retro Gear:
 #    - Record Player: ./retrogear/recordplayer.md
 #  - Retro Gaming: 
 #    - Atari 2600: ./retrogaming/atari2600.md
 #    - Arcade: ./retrogaming/arcade.md
+  - Retro Gear:
+    - Apple Macintosh Quadra 700: ./retrogear/macintoshquadra700.md
 #  - Model Rockets: 
 #    - Estes Saturn V: ./modelrockets/estessaturnv.md
   - Gaming: 
