@@ -32,8 +32,8 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/tonykambo
-      name: tonykambo on Twitter
+      link: https://twitter.com/jumbolouko
+      name: Jumbolouko on Twitter
 
     #- property: !ENV MYGGLANALYTIC
  #- property: !!python/object/apply:os.getenv ["MYGGLANALYTIC"]
